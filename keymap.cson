@@ -1,0 +1,5 @@
+'.platform-win32 atom-text-editor':
+    'ctrl-shift-l': 'editor:split-selections-into-lines'
+
+'atom-text-editor':
+    'ctrl-shift-l': 'editor:split-selections-into-lines'

@@ -1,0 +1,9 @@
+packages: [
+  "atom-ternjs"
+  "highlight-selected"
+  "language-babel"
+  "linter"
+  "linter-eslint"
+  "minimap"
+  "package-sync"
+]

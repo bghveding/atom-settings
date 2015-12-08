@@ -1,0 +1,14 @@
+"*":
+  welcome:
+    showOnStartup: false
+  "linter-eslint": {}
+  core:
+    disabledPackages: [
+      "metrics"
+    ]
+  editor:
+    invisibles: {}
+  linter: {}
+  "language-babel": {}
+  "exception-reporting":
+    userId: "2fa321a2-ccb7-09e2-436e-0ffcd8d56deb"
