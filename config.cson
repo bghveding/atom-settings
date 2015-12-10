@@ -5,13 +5,24 @@
   core:
     disabledPackages: [
       "metrics"
+      "background-tips"
+      "exception-reporting"
+      "language-c"
+      "language-clojure"
+      "language-go"
+      "language-java"
+      "language-make"
+      "language-mustache"
+      "language-objective-c"
+      "language-perl"
+      "language-ruby-on-rails"
+      "styleguide"
+      "welcome"
     ]
   editor:
     invisibles: {}
   linter: {}
   "language-babel": {}
-  "exception-reporting":
-    userId: "2fa321a2-ccb7-09e2-436e-0ffcd8d56deb"
   "linter-coffee-variables": {}
   "js-hyperclick":
     extensions: [
