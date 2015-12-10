@@ -1,5 +1,11 @@
 '.platform-win32 atom-text-editor':
-    'ctrl-shift-l': 'editor:split-selections-into-lines'
+  'ctrl-shift-l': 'editor:split-selections-into-lines'
 
 'atom-text-editor':
-    'ctrl-shift-l': 'editor:split-selections-into-lines'
+  'ctrl-shift-l': 'editor:split-selections-into-lines'
+
+'atom-text-editor.editor.editor':
+  'ctrl-shift-space': 'expand-selection-to-quotes:toggle'
+
+'atom-workspace':
+  'ctrl-t': 'atom-transpose:transpose'

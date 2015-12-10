@@ -12,3 +12,8 @@
   "language-babel": {}
   "exception-reporting":
     userId: "2fa321a2-ccb7-09e2-436e-0ffcd8d56deb"
+  "linter-coffee-variables": {}
+  "js-hyperclick":
+    extensions: [
+      ".coffee"
+    ]
