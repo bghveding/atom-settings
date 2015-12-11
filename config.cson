@@ -21,9 +21,17 @@
     ]
   editor:
     invisibles: {}
+    showIndentGuide: true
+    fontSize: 15
   linter: {}
   "language-babel": {}
-  "linter-coffee-variables": {}
+  "linter-coffee-variables":
+    environments: [
+      "browser"
+      "node"
+      "es6"
+      "amd"
+    ]
   "js-hyperclick":
     extensions: [
       ".coffee"
