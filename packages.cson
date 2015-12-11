@@ -1,8 +1,10 @@
 packages: [
+  "atom-beautify"
   "atom-ternjs"
   "atom-transpose"
   "change-case"
   "expand-selection-to-quotes"
+  "git-plus"
   "highlight-selected"
   "hyperclick"
   "js-hyperclick"
