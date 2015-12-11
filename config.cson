@@ -39,5 +39,6 @@
   "atom-beautify":
     _analyticsUserId: "94512e7a-304f-451f-b2cf-631787a170cc"
     css_newline_between_rules: true
+    analytics: false
   "one-dark-ui": {}
   "git-plus": {}
