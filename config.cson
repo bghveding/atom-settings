@@ -22,7 +22,6 @@
   editor:
     invisibles: {}
     showIndentGuide: true
-    fontSize: 15
   linter: {}
   "language-babel": {}
   "linter-coffee-variables":
@@ -42,3 +41,4 @@
     analytics: false
   "one-dark-ui": {}
   "git-plus": {}
+  "smart-tab-name": {}
