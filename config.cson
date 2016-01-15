@@ -1,7 +1,8 @@
 "*":
-  welcome:
-    showOnStartup: false
-  "linter-eslint": {}
+  "atom-beautify":
+    _analyticsUserId: "94512e7a-304f-451f-b2cf-631787a170cc"
+    analytics: false
+    css_newline_between_rules: true
   core:
     disabledPackages: [
       "metrics"
@@ -18,12 +19,20 @@
       "language-ruby-on-rails"
       "styleguide"
       "welcome"
+      "minimap"
     ]
   editor:
+    fontSize: 15
     invisibles: {}
     showIndentGuide: true
-  linter: {}
+    showLineNumbers: false
+  "git-plus": {}
+  "js-hyperclick":
+    extensions: [
+      ".coffee"
+    ]
   "language-babel": {}
+  linter: {}
   "linter-coffee-variables":
     environments: [
       "browser"
@@ -31,14 +40,12 @@
       "es6"
       "amd"
     ]
-  "js-hyperclick":
-    extensions: [
-      ".coffee"
-    ]
-  "atom-beautify":
-    _analyticsUserId: "94512e7a-304f-451f-b2cf-631787a170cc"
-    css_newline_between_rules: true
-    analytics: false
+  "linter-eslint": {}
   "one-dark-ui": {}
-  "git-plus": {}
+  pigments: {}
   "smart-tab-name": {}
+  "symbols-tree-view":
+    autoToggle: true
+    zAutoHideTypes: "variable"
+  welcome:
+    showOnStartup: false
