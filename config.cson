@@ -1,8 +1,10 @@
 "*":
   "atom-beautify":
-    _analyticsUserId: "94512e7a-304f-451f-b2cf-631787a170cc"
-    analytics: false
-    css_newline_between_rules: true
+    css:
+      newline_between_rules: true
+    general:
+      _analyticsUserId: "94512e7a-304f-451f-b2cf-631787a170cc"
+      analytics: false
   core:
     disabledPackages: [
       "metrics"
@@ -22,16 +24,14 @@
       "minimap"
     ]
   editor:
-    fontSize: 15
     invisibles: {}
     showIndentGuide: true
   "git-plus": {}
-  "js-hyperclick":
-    extensions: [
-      ".coffee"
-    ]
+  "js-hyperclick": {}
   "language-babel": {}
-  linter: {}
+  linter:
+    errorPanelHeight: 189
+    showErrorPanel: false
   "linter-coffee-variables":
     environments: [
       "browser"
@@ -40,6 +40,8 @@
       "amd"
     ]
   "linter-eslint": {}
+  "linter-swiftc": {}
+  "node-debugger": {}
   "one-dark-ui": {}
   pigments: {}
   "smart-tab-name": {}
